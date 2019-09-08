@@ -1,0 +1,49 @@
+.form1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: #61B4EC;
+    border: 2px solid #61B4EC;
+    width: 40%;
+    margin: 30px auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px black;
+}
+
+.form1 input, .form2 input, .form2 select option {
+    background: none;
+    border: none;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 40px 0px 40px 0px;
+    outline: 0;
+}
+
+.form1 p {
+    margin: 0px 20px;
+}
+
+.form1 p:hover {
+    color: blue;
+    cursor: grab;
+}
+
+.form2{
+    
+    text-align: center;
+    width: 70%;
+    margin-left: 14%;
+    background-color:#61B4EC;
+    
+    
+}
+
+
+.ocultar {
+    display: none;
+}
+
+.mostrar {
+    display: block;
+}
